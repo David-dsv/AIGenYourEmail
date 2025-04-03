@@ -1,0 +1,59 @@
+Nom : TechNord Solutions
+Secteur : Informatique & Cloud
+Localisation : Berlin, Allemagne
+Description : Entreprise spécialisée dans l’infrastructure cloud hybride, cherchant à moderniser ses data centers.
+Contact : Klaus Weber (Directeur IT)
+
+Nom : Solaris Energia
+Secteur : Énergie renouvelable
+Localisation : São Paulo, Brésil
+Description : Fournisseur d’énergie solaire visant à optimiser ses opérations avec l’IoT et l’analytique.
+Contact : Ana Costa (Responsable Innovation)
+
+Nom : MediCare+
+Secteur : Santé digitale
+Localisation : Toronto, Canada
+Description : Start-up de télémédecine en phase de scale-up, besoin de solutions IA pour l’analyse de données patients.
+Contact : Dr. Emily Park (Directrice Technique)
+
+Nom : EuroLogistics Group
+Secteur : Logistique
+Localisation : Rotterdam, Pays-Bas
+Description : Opérateur logistique souhaitant automatiser ses chaînes d’approvisionnement.
+Contact : Pieter Van Dijk (Directeur Opérations)
+
+Nom : Finova Bank
+Secteur : Fintech
+Localisation : Singapour
+Description : Banque digitale cherchant à renforcer sa cybersécurité et intégrer des solutions blockchain.
+Contact : Raj Patel (Responsable Compliance)
+
+Nom : AgriGrowth
+Secteur : AgriTech
+Localisation : Nairobi, Kenya
+Description : Entreprise d’agriculture connectée, en quête de solutions d’analytique prédictive pour les récoltes.
+Contact : Amina Juma (CEO)
+
+Nom : NextAuto Motors
+Secteur : Automobile
+Localisation : Tokyo, Japon
+Description : Constructeur automobile développant des véhicules autonomes, besoin de partenariat en R&D AI.
+Contact : Hiroshi Tanaka (Directeur R&D)
+
+Nom : UrbanSafe
+Secteur : Sécurité urbaine
+Localisation : Dubaï, Émirats Arabes Unis
+Description : Société de surveillance intelligente, veut intégrer des caméras IA et systèmes de gestion de crise.
+Contact : Leila Al-Mansoori (Directrice Commerciale)
+
+Nom : EduFuture
+Secteur : EdTech
+Localisation : Madrid, Espagne
+Description : Plateforme éducative visant à personnaliser l’apprentissage via l’IA générative.
+Contact : Carlos Mendez (Responsable IT)
+
+Nom : BlueSky Airlines
+Secteur : Transport aérien
+Localisation : Sydney, Australie
+Description : Compagnie aérienne souhaitant optimiser la gestion des carburants et réduire son empreinte carbone.
+Contact : Sarah Thompson (Directrice Développement Durable)
