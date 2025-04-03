@@ -1,10 +1,10 @@
 # AIGenYourEmail
 
 ## Description
-AIGenYourEmail est un outil d'automatisation basé sur l'API Azure OpenAI qui génère des e-mails professionnels personnalisés pour les clients d'IBM. En utilisant un modèle GPT-4o, cet outil permet d'adapter dynamiquement un template d'e-mail en fonction des informations spécifiques de chaque client.
+AIGenYourEmail est un outil d'automatisation basé sur l'API Azure OpenAI qui génère des e-mails professionnels personnalisés pour tout type de client. En utilisant un modèle GPT-4o, cet outil permet d'adapter dynamiquement un template d'e-mail en fonction des informations spécifiques de chaque destinataire.
 
 ## Fonctionnalités
-- **Lecture des clients depuis un fichier Excel** : Extraction des informations des clients à partir d'un fichier `clients_ibm.xlsx`.
+- **Lecture des clients depuis un fichier Excel** : Extraction des informations des clients à partir d'un fichier `clients.xlsx`.
 - **Génération automatique d'e-mails personnalisés** : Utilisation de GPT-4o pour adapter le template en fonction du secteur, du pays et des besoins du client.
 - **Sauvegarde des e-mails générés** : Stockage des e-mails personnalisés sous forme de fichiers `.txt`.
 - **Exportation des données clients en format Excel** : Extraction et structuration des données à partir d'un fichier `.txt` en `.xlsx` avec mise en forme avancée.
@@ -45,7 +45,7 @@ AIGenYourEmail est un outil d'automatisation basé sur l'API Azure OpenAI qui g�
    python main.py
    ```
 2. **Les e-mails générés seront enregistrés dans le dossier `mails_personnalises/`**
-3. **Les informations clients seront exportées en `clients_ibm.xlsx`**
+3. **Les informations clients seront exportées en `clients.xlsx`**
 
 ## Exemples d'e-mails générés
 Un e-mail typique pourrait ressembler à ceci :
@@ -55,7 +55,7 @@ J'espère que ce message vous trouve en pleine forme...
 ...
 Bien cordialement,
 David Vuong
-Responsable commercial | IBM
+Responsable commercial
 ```
 
 ## Contribuer
