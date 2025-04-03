@@ -1,73 +1,78 @@
 # AIGenYourEmail
 
 ## Description
-AIGenYourEmail est un outil d'automatisation basé sur l'API Azure OpenAI qui génère des e-mails professionnels personnalisés pour tout type de client. En utilisant un modèle GPT-4o, cet outil permet d'adapter dynamiquement un template d'e-mail en fonction des informations spécifiques de chaque destinataire.
+AIGenYourEmail is an automation tool based on the Azure OpenAI API that generates personalized professional emails for any type of client. Using a GPT-4o model, this tool dynamically adapts an email template based on specific recipient information.
 
-## Fonctionnalités
-- **Lecture des clients depuis un fichier Excel** : Extraction des informations des clients à partir d'un fichier `clients.xlsx`.
-- **Génération automatique d'e-mails personnalisés** : Utilisation de GPT-4o pour adapter le template en fonction du secteur, du pays et des besoins du client.
-- **Sauvegarde des e-mails générés** : Stockage des e-mails personnalisés sous forme de fichiers `.txt`.
-- **Exportation des données clients en format Excel** : Extraction et structuration des données à partir d'un fichier `.txt` en `.xlsx` avec mise en forme avancée.
+## Features
+- **Read clients from an Excel file**: Extract client information from a `clients.xlsx` file.
+- **Automatically generate personalized emails**: Use GPT-4o to tailor the template according to the client's sector, country, and needs.
+- **Save generated emails**: Store personalized emails as `.txt` files.
+- **Export client data in Excel format**: Extract and structure data from a `.txt` file to `.xlsx` with advanced formatting.
 
-## Technologies utilisées
+## Technologies Used
 - **Python**
 - **Azure OpenAI API (GPT-4o)**
-- **Pandas** pour la manipulation de fichiers Excel
-- **Requests** pour interagir avec l'API Azure
-- **Dotenv** pour la gestion des clés API
-- **Openpyxl** pour le formatage Excel avancé
+- **Pandas** for Excel file manipulation
+- **Requests** for API interaction
+- **Dotenv** for API key management
+- **Openpyxl** for advanced Excel formatting
 
 ## Installation
-1. **Cloner le dépôt**
+1. **Clone the repository**
    ```sh
    git clone https://github.com/David-dsv/AIGenYourEmail.git
    cd AIGenYourEmail
    ```
-2. **Créer un environnement virtuel et l'activer**
+2. **Create and activate a virtual environment**
    ```sh
    python3 -m venv env
-   source env/bin/activate  # Pour macOS/Linux
-   env\Scripts\activate    # Pour Windows
+   source env/bin/activate  # For macOS/Linux
+   env\Scripts\activate    # For Windows
    ```
-3. **Installer les dépendances**
+3. **Install dependencies**
    ```sh
    pip install -r requirements.txt
    ```
-4. **Créer un fichier `.env` et ajouter vos clés API Azure**
+4. **Create a `.env` file and add your Azure API keys**
    ```ini
-   AZURE_OPENAI_KEY=VotreCléAPI
-   AZURE_OPENAI_ENDPOINT=VotreEndpointAzure
+   AZURE_OPENAI_KEY=YourAPIKey
+   AZURE_OPENAI_ENDPOINT=YourAzureEndpoint
    ```
 
-## Utilisation
-1. **Exécuter le script principal**
+## Usage
+1. **Run the main script**
    ```sh
    python main.py
    ```
-2. **Les e-mails générés seront enregistrés dans le dossier `mails_personnalises/`**
-3. **Les informations clients seront exportées en `clients.xlsx`**
+2. **Generated emails will be saved in the `mails_personnalises/` folder**
+3. **Client information will be exported to `clients.xlsx`**
 
-## Exemples d'e-mails générés
-Un e-mail typique pourrait ressembler à ceci :
+## Example of Generated Emails
+A typical email might look like this:
 ```
-Bonjour M. Dupont,
-J'espère que ce message vous trouve en pleine forme...
+Hello Mr. Smith,
+I hope this message finds you well...
 ...
-Bien cordialement,
+Best regards,
 David Vuong
-Responsable commercial
+Sales Manager
 ```
 
-## Contribuer
-1. **Forker le projet**
-2. **Créer une branche feature**
+## Contributing
+1. **Fork the project**
+2. **Create a feature branch**
    ```sh
-   git checkout -b ma-nouvelle-feature
+   git checkout -b my-new-feature
    ```
-3. **Faire une pull request**
+3. **Submit a pull request**
 
-## Auteurs
+## Authors
 - **David Vuong** - [GitHub](https://github.com/David-dsv)
 
-## Licence
-Ce projet est sous licence MIT - voir le fichier `LICENSE` pour plus de détails.
+## License
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## About Me
+I'm **David Soeiro-Vuong**, a third-year Computer Science student working as an apprentice at **TW3 Partners**, a company specialized in **Generative AI**. Passionate about artificial intelligence and language model optimization, I focus on creating efficient model merges that balance performance and capabilities.
+
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/david-soeiro-vuong-a28b582ba/)
