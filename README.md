@@ -75,4 +75,5 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 ## About Me
 I'm **David Soeiro-Vuong**, a third-year Computer Science student working as an apprentice at **TW3 Partners**, a company specialized in **Generative AI**. Passionate about artificial intelligence and language model optimization, I focus on creating efficient model merges that balance performance and capabilities.
 
-🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/david-soeiro-vuong-a28b582ba/)
+🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/david-soeiro-vuong-a28b582ba/)
+🔗 [Follow me on Hugging face](https://huggingface.co/Davidsv/)
